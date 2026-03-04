@@ -27,27 +27,6 @@ export const About = () => {
             <p className="text-lg text-white/70 mb-10 leading-relaxed">
               Cada hambúrguer é uma obra de arte, preparado com ingredientes selecionados e receitas exclusivas. Nosso ambiente foi projetado para ser acolhedor e vibrante, perfeito para relaxar com uma cerveja gelada e boa companhia.
             </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-xl bg-white/5 text-primary">
-                  <MapPin size={24} />
-                </div>
-                <div>
-                  <h4 className="font-bold mb-1">Localização</h4>
-                  <p className="text-sm text-white/50">Centro, Ituverava - SP</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-xl bg-white/5 text-primary">
-                  <Clock size={24} />
-                </div>
-                <div>
-                  <h4 className="font-bold mb-1">Horário</h4>
-                  <p className="text-sm text-white/50">Abre às 17:30</p>
-                </div>
-              </div>
-            </div>
           </motion.div>
 
           <motion.div

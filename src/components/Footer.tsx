@@ -19,10 +19,10 @@ export const Footer = () => {
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="#" className="p-3 rounded-full bg-white/5 hover:bg-primary hover:text-dark transition-all">
+            <a href="https://www.instagram.com/trumansburger/" className="p-3 rounded-full bg-white/5 hover:bg-primary hover:text-dark transition-all">
               <Instagram size={20} />
             </a>
-            <a href="#" className="p-3 rounded-full bg-white/5 hover:bg-primary hover:text-dark transition-all">
+            <a href="https://www.facebook.com/soutrumansburger" className="p-3 rounded-full bg-white/5 hover:bg-primary hover:text-dark transition-all">
               <Facebook size={20} />
             </a>
             <a href="https://wa.me/5516981525339" className="p-3 rounded-full bg-white/5 hover:bg-[#25D366] hover:text-white transition-all">
@@ -31,7 +31,7 @@ export const Footer = () => {
           </div>
 
           <div className="text-center md:text-right">
-            <p className="text-sm text-white/40">© 2024 Truman's Beer & Burger.</p>
+            <p className="text-sm text-white/40">© 2026 Truman's Beer & Burger.</p>
             <p className="text-xs text-white/20 mt-1 italic">Feito com sabor em Ituverava.</p>
           </div>
         </div>

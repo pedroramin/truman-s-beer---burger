@@ -35,15 +35,15 @@ const MOMENTS = [
 
 export const Experience = () => {
   return (
-    <section className="py-32 bg-surface relative overflow-hidden" id="experience">
+    <section className="py-20 md:py-32 bg-surface relative overflow-hidden" id="experience">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-8">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-12 md:mb-20 gap-6 md:gap-8">
           <div className="max-w-2xl">
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-6 uppercase tracking-tighter font-serif">
+            <h2 className="text-3xl md:text-6xl font-extrabold mb-4 md:mb-6 uppercase tracking-tighter font-serif">
               A <span className="text-secondary">Experiência</span> <br />
               Truman's
             </h2>
-            <p className="text-white/60 text-lg">
+            <p className="text-white/60 text-base md:text-lg">
               Não é apenas sobre comer, é sobre o momento. Explore o que faz da nossa casa o lugar mais desejado da cidade.
             </p>
           </div>
@@ -53,7 +53,7 @@ export const Experience = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {MOMENTS.map((moment, index) => (
             <motion.div
               key={moment.id}

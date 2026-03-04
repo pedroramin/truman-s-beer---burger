@@ -1,0 +1,7 @@
+{
+  "name": "Truman's Beer & Burger",
+  "description": "Hamburgueria artesanal e pub em Ituverava - SP. O melhor sabor da cidade em cada mordida.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

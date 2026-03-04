@@ -4,44 +4,44 @@ import { MapPin, Navigation, Phone, Clock } from 'lucide-react';
 
 export const Location = () => {
   return (
-    <section className="py-24 bg-surface" id="location">
+    <section className="py-16 md:py-24 bg-surface" id="location">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-8">Onde <span className="text-primary italic">estamos</span></h2>
+            <h2 className="text-3xl md:text-5xl font-extrabold mb-6 md:mb-8">Onde <span className="text-primary italic">estamos</span></h2>
             
-            <div className="space-y-8 mb-10">
+            <div className="space-y-6 md:space-y-8 mb-8 md:mb-10">
               <div className="flex items-start gap-4">
-                <div className="p-4 rounded-2xl bg-primary text-dark">
-                  <MapPin size={24} />
+                <div className="p-3 md:p-4 rounded-2xl bg-primary text-dark shrink-0">
+                  <MapPin size={20} md:size={24} />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold mb-1">Endereço</h4>
-                  <p className="text-white/60">R. Benjamin Constant, 439 – Centro, Ituverava – SP</p>
+                  <h4 className="text-lg md:text-xl font-bold mb-1">Endereço</h4>
+                  <p className="text-sm md:text-base text-white/60">R. Benjamin Constant, 439 – Centro, Ituverava – SP</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="p-4 rounded-2xl bg-secondary text-white">
-                  <Phone size={24} />
+                <div className="p-3 md:p-4 rounded-2xl bg-secondary text-white shrink-0">
+                  <Phone size={20} md:size={24} />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold mb-1">Contato</h4>
-                  <p className="text-white/60">(16) 98152-5339</p>
+                  <h4 className="text-lg md:text-xl font-bold mb-1">Contato</h4>
+                  <p className="text-sm md:text-base text-white/60">(16) 98152-5339</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="p-4 rounded-2xl bg-white/5 text-white">
-                  <Clock size={24} />
+                <div className="p-3 md:p-4 rounded-2xl bg-white/5 text-white shrink-0">
+                  <Clock size={20} md:size={24} />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold mb-1">Horário de Funcionamento</h4>
-                  <p className="text-white/60"> De Terça a Domingo das 17:30 a 00:00</p>
+                  <h4 className="text-lg md:text-xl font-bold mb-1">Horário de Funcionamento</h4>
+                  <p className="text-sm md:text-base text-white/60"> De Terça a Domingo das 17:30 a 00:00</p>
                 </div>
               </div>
             </div>

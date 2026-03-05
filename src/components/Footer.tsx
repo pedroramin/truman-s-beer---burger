@@ -31,7 +31,7 @@ export const Footer = () => {
           </div>
 
           <div className="text-center md:text-right">
-            <p className="text-sm text-white/40">© 2026 Truman's Beer & Burger.</p>
+            <p className="text-sm text-white/40">© 2018 Truman's Beer & Burger.</p>
             <p className="text-xs text-white/20 mt-1 italic">Feito com sabor em Ituverava.</p>
           </div>
         </div>
